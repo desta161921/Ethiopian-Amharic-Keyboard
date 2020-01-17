@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" 
+        android:orientation="vertical" 
+        android:paddingLeft="10.0sp" 
+        android:paddingRight="10.0sp" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent">
+        
+        <TextView
+        android:id="@+id/app_info_enable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal|fill_horizontal"
+        android:layout_marginBottom="10sp"
+        android:text="@string/app_info_enable" />
+        
+        <Button
+        android:id="@+id/app_info_enable_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:text="@string/app_info_enable_button" />
+        
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal|fill_horizontal"
+        android:layout_marginBottom="10sp"
+        android:text="@string/app_info_choose" />
+        
+        <Button
+        android:id="@+id/app_info_choose_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:text="@string/app_info_choose_button" />
+        
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keybinding"
+        android:layout_marginBottom="10sp"
+         />
+        
+        <Button
+        android:id="@+id/app_binding_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:layout_marginBottom="10sp"
+        android:text="@string/app_binding_button" />
+        
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyboarManual"
+        android:layout_marginBottom="10sp"
+         />
+        <Button
+        android:id="@+id/app_manual_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:layout_marginBottom="10sp"
+        android:text="@string/app_manual_button" />
+        
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal|fill_horizontal"
+        android:paddingBottom="25sp"
+        android:text="@string/app_info_tips" />
+        
+        <Button
+        android:id="@+id/app_rate_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:text="@string/app_rate_button" />
+        
+        <Button
+        android:id="@+id/app_share_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:text="@string/app_share_button" />
+        
+        <Button
+        android:id="@+id/app_contact_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:text="@string/app_contact_button" />
+    <Button
+        android:id="@+id/app_donate_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:layout_weight="0.07"
+        android:text="@string/app_donate_button" />
+
+        <Button android:id="@id/app_info_button_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0sp" android:text="@string/close" />
+    </LinearLayout>
+</ScrollView>

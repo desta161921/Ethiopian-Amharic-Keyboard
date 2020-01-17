@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="word_separators">". ,;:!?
+()[]*&amp;@{}/&lt;>_+=|\""</string>
+    <string name="sentence_separators">.,;:!?</string>
+    <string name="keyboard_type_list_default_value">0</string>
+    <string name="skin_default_value">input_standard</string>
+    <string name="keyboard_layout_list_default_value">0</string>
+    <string name="dictionary_list_default_value">com.ethiopian.amharic.professional.geezdictionary</string>
+    <string name="dictionary_builtin_pkg">com.android.inputmethod.latin</string>
+    <string name="dictionary_builtin_voice_pkg">com.google.android.voicesearch</string>
+    <string name="dictionary_builtin_name">english</string>
+    <string name="auto_dictionary_limit_default">2</string>
+    <string name="geez_key">-8080</string>
+    <string name="alternates_for_q">1</string>
+    <string name="alternates_for_w">2</string>
+    <string name="alternates_for_e">3</string>
+    <string name="alternates_for_r">4</string>
+    <string name="alternates_for_t">5</string>
+    <string name="alternates_for_y">6</string>
+    <string name="alternates_for_u">7</string>
+    <string name="alternates_for_i">8</string>
+    <string name="alternates_for_o">9</string>
+    <string name="alternates_for_p">0</string>
+    <string name="alternates_for_a">\@</string>
+    <string name="alternates_for_s">\#</string>
+    <string name="alternates_for_d">$</string>
+    <string name="alternates_for_f">%</string>
+    <string name="alternates_for_g">&amp;</string>
+    <string name="alternates_for_h">*</string>
+    <string name="alternates_for_j">-_</string>
+    <string name="alternates_for_k">+=</string>
+    <string name="alternates_for_l">(</string>
+    <string name="alternates_for_z">!</string>
+    <string name="alternates_for_x">\"</string>
+    <string name="alternates_for_c">"'"</string>
+    <string name="alternates_for_v">:</string>
+    <string name="alternates_for_b">;</string>
+    <string name="alternates_for_n">/</string>
+    <string name="alternates_for_m">\?</string>
+    <string name="alternates_for_oe_left">)ǿ</string>
+    <string name="alternates_for_oe_right">ǿ</string>
+    <string name="alternates_for_ae_left">)ǽ</string>
+    <string name="alternates_for_ae_right">ǽ</string>
+    <string name="alternates_for_l_en">()</string>
+    <string name="alternates_for_y_de">!</string>
+    <string name="alternates_for_z_de">6</string>
+    <string name="alternates_for_t_line_se">6</string>
+    <string name="alternates_for_z_hat_se">!</string>
+    <string name="alternates_for_z_se">\"x</string>
+    <string name="alternates_for_a_lv">ā@</string>
+    <string name="alternates_for_c_lv">"č'"</string>
+    <string name="alternates_for_e_lv">ē3</string>
+    <string name="alternates_for_g_lv">ģ&amp;</string>
+    <string name="alternates_for_i_lv">ī8</string>
+    <string name="alternates_for_k_lv">ķ+=</string>
+    <string name="alternates_for_l_lv">ļ()</string>
+    <string name="alternates_for_n_lv">ņ/\\</string>
+    <string name="alternates_for_s_lv">š#§ß</string>
+    <string name="alternates_for_u_lv">ū7</string>
+    <string name="alternates_for_z_lv">ž!</string>
+    <string name="english_ime_name">Amharic Professional Keyboard</string>
+    <string name="ime_settings">Keyboard Settings</string>
+    <string name="english_ime_settings">Amharic Professional Keyboard Settings</string>
+    <string name="app_info_enable">"<b>"Welcome!"</b>" In order to use the Amharic Professional Keyboard, you must perform the following steps."<b>"YOU DON'T NEED TO ROOT YOUR ANDROID DEVICE!"</b>"
+        \n"<b>"Step 1: "<u>"Activate the keyboard"</u>""</b>"
+		=> To activate the keyboard either go to "<b>"Settings"</b>" -&gt; "<b>"Language &amp; Input"</b>", and check Amharic Professional Keyboard or press the button below and return here after you check the keyboard if it\'s not already checked. You have to acknowledge the warning message shown by the system. The Android system always shows this message whenever you try to enable a third party input method.</string>
+    <string name="app_info_enable_button">1. Activate the keyboard</string>
+    <string name="app_info_choose">"<b>"Step 2: "<u>"Set Amharic Professional Keyboard as the default Input Method (IME)"</u>""</b>"
+		=> To choose the Amharic Professional Keyboard, press the button below.</string>
+    <string name="app_info_choose_button">2. Switch IME to Amharic Professional Keyboard</string>
+    <string name="app_binding_button">3. Key Binding</string>
+    <string name="app_manual_button">4. Keyboard Manual</string>
+    <string name="app_rate_button">Rate Application</string>
+    <string name="app_share_button">Share it with your friends</string>
+    <string name="app_contact_button">Questions (Feedback)</string>
+    <string name="app_donate_button">Donate</string>
+    <string name="activate_keyboard">Activate Keyboard</string>
+    <string name="keybinding_settings">Key Bindings</string>
+    <string name="keybinding"><b>Step 3: <u>Key Bindings</u></b>\n => Click the following button to learn abou the key bindings of the keyboard.</string>
+    <string name="keyboarManual"><b>Step 4: <u>Keyboard Manual</u></b>\n => Click the following button to get a short compiled manual for the keyboard.</string>
+    <string name="app_info_tips">"<b>"Step 5: "<u>""Keyboard Settings"</u>""</b>"
+	=> To choose keyboard layout or change other settings, press the "<b>"Settings Key Button"</b>" on the bottom left side of the keyboard.</string>
+    <string name="input_method">Choose Input Method (IME)</string>
+    <string name="help">About this app</string>
+    <string name="about">About the app</string>
+    <string name="homepage">Homepage</string>
+    <string name="donate">Donate</string>
+    <string name="close">Close</string>
+    <string name="keyboard_type">Keyboard Type</string>
+    <string name="vibrate_options">Vibrate Options</string>
+    <string name="save">Save</string>
+    <string name="vibrate_enable">Vibrate on Keypress</string>
+    <string name="vibrate_duration">Vibrate Duration:</string>
+    <string name="vibrate_bug_fix">"Try to fix bug with endless vibration."</string>
+    <string name="sound_on_keypress">Sound on Keypress</string>
+    <string name="swipe_settings">Swipe Settings</string>
+    <string name="swipe_settings_summary">Enable/Disable Swipe Settings</string>
+    <string name="enable_swipe">Enable Swipe</string>
+    <string name="enable_swipe_summary">Move your finger across the keyboard to swipe</string>
+    <string name="swipe_up">Swipe Up</string>
+    <string name="swipe_down">Swipe Down</string>
+    <string name="swipe_left">Swipe Left</string>
+    <string name="swipe_right">Swipe Right</string>
+    <string name="swipe_up_default">1</string>
+    <string name="swipe_down_default">2</string>
+    <string name="swipe_left_default">3</string>
+    <string name="swipe_right_default">4</string>
+    <string name="swipe_keyboard_layout">Keyboard Langauges</string>
+    <string name="swipe_dictionary">Dictionaries</string>
+    <string name="skin">Keyboard Skin</string>
+    <string name="skin_summary">Click here to change the appearance of your keyboard</string>
+    <string name="keyboard_layout">Keyboard layout</string>
+    <string name="language_category">Language settings</string>
+    <string name="dictionary_manually">Choose dictionary</string>
+    <string name="dictionary_manually_summary_unchecked">Dictionary language is same as layout</string>
+    <string name="dictionary_manually_summary_checked">Dictionary language is set manually</string>
+    <string name="dictionary">Dictionary language</string>
+    <string name="dictionary_builtin_language">English</string>
+    <string name="dictionary_market">Download dictionary</string>
+    <string name="rateApp">Rate</string>
+    <string name="shareApp">Share</string>
+    <string name="contactCreator">Questions (Feedback)</string>
+    <string name="donateApplication">Donate</string>
+    
+    <string name="auto_dictionary_options">Auto dictionary options</string>
+    <string name="auto_dictionary_options_summary">Automatically saves often used words in user dictionary</string>
+    <string name="auto_dictionary_enable">Enable auto dictionary</string>
+    <string name="auto_dictionary_limit_text">How many times to type a word before it is added to the user dictionary</string>
+    <string name="auto_dictionary_case_sensitive">Case-sensitive</string>
+    <string name="space_after_prediction">Insert space</string>
+    <string name="space_after_prediction_summary">Insert space after a predicted word is selected</string>
+    <string name="at_is_word_separator">Use @ as a word separator</string>
+    <string name="at_is_word_separator_summary_unchecked">\@ can be saved in a word</string>
+    <string name="at_is_word_separator_summary_checked">"\@ will complete suggested word and can't be saved in a word"</string>
+    <string name="swap_colon">Swap colon and space</string>
+    <string name="swap_colon_summary">When colon/semicolon is pressed after space, place it before</string>
+    <string name="hit_correction">Correct typing errors</string>
+    <string name="hit_correction_summary">Enable input error correction</string>
+    <string name="hit_correction_land">Landscape input errors</string>
+    <string name="hit_correction_land_summary">Enable input error correction</string>
+    <string name="auto_correction">Word suggestions</string>
+    <string name="auto_correction_summary">Automatically correct the previous word</string>
+    <string name="prediction">Word suggestions</string>
+    <string name="prediction_category">Word suggestion settings</string>
+    <string name="prediction_summary">Enable auto completion while typing</string>
+    <string name="auto_complete_dialog_title">Auto completion</string>
+    <string name="prediction_landscape">Increase text field size</string>
+    <string name="prediction_landscape_summary">Hide word suggestions in landscape view</string>
+    <string name="auto_cap">Auto-capitalization</string>
+    <string name="auto_cap_summary">Capitalize the start of a sentence</string>
+    <string name="auto_punctuate">Auto-punctuate</string>
+    <string name="auto_punctuate_summary" />
+    <string name="quick_fixes">Quick fixes</string>
+    <string name="quick_fixes_summary">Corrects commonly typed mistakes</string>
+    <string name="show_suggestions">Show suggestions</string>
+    <string name="show_suggestions_summary">Display suggested words while typing</string>
+    <string name="auto_complete">Auto-complete</string>
+    <string name="auto_complete_summary">Spacebar and punctuation automatically insert highlighted word</string>
+    <string name="prediction_none">0</string>
+    <string name="prediction_basic">1</string>
+    <string name="prediction_full">2</string>
+    <string name="added_word">%s : Saved</string>
+    <string name="key_i">i</string>
+    <string name="tip_long_press">Hold a key down to see accents (ø, ö, etc.)</string>
+    <string name="tip_dismiss">Press the back key ↶ to close the keyboard at any point</string>
+    <string name="tip_access_symbols">Access numbers and symbols</string>
+    <string name="tip_add_to_dictionary">Press and hold the left-most word to add it to the dictionary</string>
+    <string name="touch_to_continue">Touch this hint to continue »</string>
+    <string name="touch_to_finish">Touch here to close this hint and start typing!</string>
+    <string name="tip_to_open_keyboard"><b>The keyboard opens any time you touch a text field</b></string>
+    <string name="tip_to_view_accents"><b>"Touch &amp; hold a key to view accents"</b>" "</string>
+    <string name="tip_to_open_symbols"><b>Switch to numbers and symbols by touching this key</b></string>
+    <string name="tip_to_close_symbols"><b>Go back to letters by touching this key again</b></string>
+    <string name="tip_to_launch_settings"><b>Touch &amp; hold this key to change keyboard settings, like auto complete</b></string>
+    <string name="tip_to_start_typing"><b>Try it!</b></string>
+    <string name="label_go_key">Go</string>
+    <string name="label_next_key">Next</string>
+    <string name="label_done_key">Done</string>
+    <string name="label_send_key">Send</string>
+    <string name="label_symbol_key">\?123</string>
+    <string name="label_phone_key">123</string>
+    <string name="label_alpha_key">ABC</string>
+    <string name="label_alt_key">ALT</string>
+    <string name="open_the_keyboard"><b><font size="17">"Open the keyboard
+"</font></b><font size="3">"
+"</font>Touch any text field.</string>
+    <string name="close_the_keyboard"><b><font size="17">"Close the keyboard
+"</font></b><font size="3">"
+"</font>Press the Back key.</string>
+    <string name="touch_and_hold"><b><font size="17">"Touch &amp; hold a key for options
+"</font></b><font size="3">"
+"</font>Access punctuation and accents.</string>
+    <string name="keyboard_settings"><b><font size="17">"Keyboard settings
+"</font></b><font size="3">"
+"</font>Touch &amp; hold the <b>?123</b> key.</string>
+    <string name="popular_domain_0">.com</string>
+    <string name="popular_domain_1">.net</string>
+    <string name="popular_domain_2">.org</string>
+    <string name="popular_domain_3">.gov</string>
+    <string name="popular_domain_4">.edu</string>
+    <string name="popular_domain_5">.et</string>
+    <string name="popular_domain_6">.fr</string>
+    <string name="popular_domain_7">.de</string>
+    <string name="popular_domain_8">.uk</string>
+    <string name="popular_domain_9">.au</string>
+    <string name="popular_domain_10">.cn</string>
+    <string name="popular_domain_11">.ch</string>
+    <string name="popular_domain_12">.ru</string>
+    <string name="help_text">
+&lt;b&gt;Application Name&lt;/b&gt;: Amharic Professional Keyboard 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Created By&lt;/b&gt;: Desta Haileselassie Hagos
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Release Date&lt;/b&gt;: October 2014, Norway
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;b&gt;Version&lt;/b&gt;: 3.0
+&lt;br&gt;
+&lt;br&gt;
+
+
+&lt;br&gt;
+&lt;b&gt;&lt;u>Questions&lt;/u>&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+
+If you have any question, please contact me at the following address and tell me what you think.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;E-mail&lt;/b&gt;:&lt;a href=\"mailto:desta161921@gmail.com\"&gt;desta161921@gmail.com&lt;/a&gt;&lt;br&gt;
+&lt;b&gt;Homepage&lt;/b&gt;:
+&lt;a href=\"https://destahaileselassie.wordpress.com/\"&gt;https://destahaileselassie.wordpress.com/&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+</string>
+        
+    <string name="user_dict_settings_titlebar">User dictionary</string>
+    <string name="user_dict_settings_title">User dictionary</string>
+    <string name="user_dict_settings_summary">Add &amp; remove words from user dictionary</string>
+    <string name="user_dict_settings_add_menu_title">Add</string>
+    <string name="user_dict_settings_add_dialog_title">Add to dictionary</string>
+    <string name="user_dict_settings_edit_dialog_title">Edit word</string>
+    <string name="user_dict_settings_context_menu_edit_title">Edit</string>
+    <string name="user_dict_settings_context_menu_delete_title">Delete</string>
+    <string name="user_dict_settings_empty_text">You do not have any words in the user dictionary. You can add a word through the menu or by pressing and holding at the leftmost word in the suggestions above the keyboard.</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="import_title">Import</string>
+    <string name="export_title">Export</string>
+    <string name="import_export_path_text">Path to file</string>
+    <string name="import_keep_existing">Keep existing words</string>
+    <string name="error">Error</string>
+    <string name="import_error_1">File not found</string>
+    <string name="import_error_2">Could not read file</string>
+    <string name="import_error_3">File has wrong format, second column is not a number</string>
+    <string name="export_error_1">Could not write file</string>
+</resources>

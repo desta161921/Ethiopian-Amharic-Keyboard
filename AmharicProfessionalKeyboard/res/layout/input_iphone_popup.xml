@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/keyboard_popup_panel_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.inputmethodservice.KeyboardView android:id="@*android:id/keyboardView" android:background="@*android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="#ffffffff" android:layout_alignParentBottom="true" android:keyBackground="@drawable/btn_keyboard_key_iphone" android:keyTextSize="22.0sp" android:keyTextColor="#ff000000" />
+    <ImageButton android:layout_gravity="center" android:id="@*android:id/closeButton" android:background="@*android:color/transparent" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/btn_close" />
+</LinearLayout>

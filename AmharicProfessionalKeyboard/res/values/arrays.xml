@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="keyboard_types">
+        <item>QWERTY</item>
+        <item>Compact QWERTY</item>
+        <item>Phone keyboard</item>
+    </string-array>
+    <string-array name="keyboard_types_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="keyboard_layouts">
+        <item>English</item>
+        <item>Amharic</item>
+        
+    </string-array>
+    <string-array name="keyboard_layouts_values">
+        <item>0</item>
+        <item>1</item>
+        
+    </string-array>
+    <string-array name="skin_entries">
+        <item>Standard</item>
+        <item>HTC</item>
+        <item>iPhone</item>
+        <item>Light</item>
+        
+    </string-array>
+    <string-array name="skin_values">
+        <item>input_standard</item>
+        <item>input_htc</item>
+        <item>input_iphone</item>
+        <item>input_light</item>
+        
+    </string-array>
+    <string-array name="swipe_options">
+        <item>Change case (upper/lower)</item>
+        <item>Symbol</item>
+        <item>Backspace</item>
+        <item>Space</item>
+        <item>Close keyboard</item>
+        <!-- <item>Previous keyboard layout</item>
+        <item>Next keyboard layout</item>
+        <item>Previous dictionary</item>
+        <item>Next dictionary</item> -->
+        <item>Move cursor left</item>
+        <item>Move cursor right</item>
+        <item>Move cursor up</item>
+        <item>Move cursor down</item>
+        <item>Disable</item>
+    </string-array>
+    <string-array name="swipe_options_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <!-- <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item> -->
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="prediction_modes">
+        <item>None</item>
+        <item>Basic</item>
+        <item>Advanced</item>
+    </string-array>
+    <string-array name="prediction_modes_values">
+        <item>@string/prediction_none</item>
+        <item>@string/prediction_basic</item>
+        <item>@string/prediction_full</item>
+    </string-array>
+</resources>

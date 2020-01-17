@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="21" android:versionName="3.0" package="com.ethiopian.amharic.professional"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
+    <uses-feature android:name="android.hardware.faketouch" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+   <!--  <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.front" android:required="false" /> -->
+
+    <uses-sdk android:targetSdkVersion="4" android:minSdkVersion="3"></uses-sdk>
+    
+    <application android:label="@string/english_ime_name" android:icon="@drawable/icon">
+        <service android:label="@string/english_ime_name" android:name="com.ethiopian.amharic.professional.AmharicIME" android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/method" />
+        </service>
+         <!-- <activity android:theme="@style/Theme.Transparent" android:label="GeezIME" android:name="org.fgaim.android.toolz.Splash" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> -->
+        
+        <activity android:label="@string/english_ime_name" android:name="com.ethiopian.amharic.professional.AmharicIMESettings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Dialog" android:label="@string/english_ime_name" android:name="com.ethiopian.amharic.professional.utils.InfoScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.INFO" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Keyboard Manual and other Settings" android:name="com.ethiopian.amharic.professional.Help">
+            <intent-filter>
+                <action android:name="com.ethiopian.amharic.professional.Help" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:label="Amharic Professional Keyboard - Key Bindings" android:name="com.ethiopian.amharic.professional.Manual">
+            <intent-filter>
+                <action android:name="com.ethiopian.amharic.professional.Manual" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ethiopian.amharic.professional.ActivateIME" />
+        <activity android:name="com.ethiopian.amharic.professional.GetStarted" />
+        
+        <!-- <activity android:label="GeezIME Manual" android:name="com.ethiopian.amharic.professional.Manual" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" /> -->
+    </application>
+</manifest>

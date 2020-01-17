@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <CheckBox android:textAppearance="?android:textAppearanceSmall" android:id="@id/auto_dictionary_enable" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/auto_dictionary_enable" />
+        <TextView android:paddingTop="20.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/auto_dictionary_limit_text" />
+        <EditText android:id="@id/auto_dictionary_limit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/auto_dictionary_limit_default" android:maxLength="3" android:digits="0123456789" android:inputType="number" android:imeOptions="actionDone" />
+        <CheckBox android:textAppearance="?android:textAppearanceSmall" android:id="@id/auto_dictionary_case_sensitive" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/auto_dictionary_case_sensitive" />
+    </LinearLayout>
+</ScrollView>

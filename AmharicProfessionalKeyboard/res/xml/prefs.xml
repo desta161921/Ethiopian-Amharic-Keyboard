@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/english_ime_settings" android:key="english_ime_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    <Preference
+            android:key="help"
+            android:title="@string/help"
+            />
+  
+    <PreferenceCategory android:title="Getting Started - Configure your keyboard">
+        <!-- <Preference android:title="Step 1" android:key="Step1" android:summary="Click here to activate Ethiopian Virtual Keyboard.">
+            <intent android:action="android.settings.INPUT_METHOD_SETTINGS" />
+        </Preference> -->
+        <Preference android:title="Setup Instructions" android:summary="Click here to follow the Setup Instructions">
+            <intent android:targetPackage="com.ethiopian.amharic.professional" android:action="android.intent.action.MAIN" android:targetClass="com.ethiopian.amharic.professional.utils.InfoScreen" />
+        </Preference>
+        <EditTextPreference android:title="Test Your Keyboard" android:key="finalStep" android:summary="Finally, test the Amharic Professional Keyboard" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Amharic Professional Keyboard Help">
+        <Preference android:title="Key Bindings" android:key="binding" android:summary="Click here to learn about the key bindings">
+        <intent android:targetPackage="com.ethiopian.amharic.professional" android:targetClass="com.ethiopian.amharic.professional.Manual" />
+    </Preference>
+    
+     <Preference android:title="Keyboard Manual" android:key="manual" android:summary="Click here to get the shor manual for the keyboard">
+        <intent android:targetPackage="com.ethiopian.amharic.professional" android:targetClass="com.ethiopian.amharic.professional.Help" />
+    </Preference>
+    </PreferenceCategory> 
+  
+    <CheckBoxPreference android:persistent="true" android:title="@string/vibrate_enable" android:key="vibrate_enable" android:summary="Enable/disable vibrate options"/>
+    <CheckBoxPreference android:persistent="true" android:title="@string/sound_on_keypress" android:key="sound_on" android:summary="Enable/disable sound on key press"/>
+    <CheckBoxPreference android:persistent="true" android:title="@string/auto_cap" android:key="auto_cap" android:defaultValue="true" android:summary="Auto-capitalize (for English)"/>
+    
+       <PreferenceScreen 
+            android:title="@string/swipe_settings"
+            android:summary="@string/swipe_settings_summary">
+
+        <PreferenceCategory
+                android:title="@string/swipe_settings"
+                android:key="swipe_settings">
+    
+            <CheckBoxPreference
+                android:key="swipe_enabled"
+                android:title="@string/enable_swipe"
+                android:summary="@string/enable_swipe_summary"
+                android:persistent="true"
+                android:defaultValue="true"
+                />
+    
+            <ListPreference
+                android:key="swipe_up"
+                android:title="@string/swipe_up"
+                android:entries="@array/swipe_options"
+                android:entryValues="@array/swipe_options_values"
+                android:persistent="true"
+                android:defaultValue="@string/swipe_up_default"
+                android:dependency="swipe_enabled"
+                />
+    
+            <ListPreference
+                android:key="swipe_down"
+                android:title="@string/swipe_down"
+                android:entries="@array/swipe_options"
+                android:entryValues="@array/swipe_options_values"
+                android:persistent="true"
+                android:defaultValue="@string/swipe_down_default"
+                android:dependency="swipe_enabled"
+                />
+    
+            <ListPreference
+                android:key="swipe_left"
+                android:title="@string/swipe_left"
+                android:entries="@array/swipe_options"
+                android:entryValues="@array/swipe_options_values"
+                android:persistent="true"
+                android:defaultValue="@string/swipe_left_default"
+                android:dependency="swipe_enabled"
+                />
+    
+            <ListPreference
+                android:key="swipe_right"
+                android:title="@string/swipe_right"
+                android:entries="@array/swipe_options"
+                android:entryValues="@array/swipe_options_values"
+                android:persistent="true"
+                android:defaultValue="@string/swipe_right_default"
+                android:dependency="swipe_enabled"
+                />
+
+            <com.ethiopian.amharic.professional.ListPreferenceMultiSelect
+                android:key="swipe_keyboard_layout"
+                android:title="@string/swipe_keyboard_layout"
+                android:entries="@array/keyboard_layouts"
+                android:entryValues="@array/keyboard_layouts_values"
+                android:summary="Keyboard langguages to swipe"
+                android:persistent="true"
+                android:defaultValue="#ALL#"
+                android:dependency="swipe_enabled"
+                />
+
+            <com.ethiopian.amharic.professional.ListPreferenceMultiSelect
+                android:key="swipe_dictionary"
+                android:title="@string/swipe_dictionary"
+                android:entries="@array/keyboard_layouts"
+                android:entryValues="@array/keyboard_layouts_values"
+                android:summary="Dictionaries to swipe between"
+                android:persistent="true"
+                android:defaultValue="#ALL#"
+                android:dependency="swipe_enabled"
+                />
+
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <ListPreference android:persistent="true" android:entries="@array/skin_entries" android:title="@string/skin" android:key="skin" android:summary="@string/skin_summary" android:defaultValue="@string/skin_default_value" android:entryValues="@array/skin_values" />
+	
+    <PreferenceCategory android:title="User Dictionary Settings">
+      <Preference android:title="User Dictionary" android:key="dictionary">
+    <intent android:action="android.settings.USER_DICTIONARY_SETTINGS" />
+    </Preference>
+  </PreferenceCategory>
+  
+    <PreferenceCategory android:title="Support the application">
+        <Preference
+            android:key="rateApp"
+            android:title="@string/rateApp"
+            android:summary="Rate this app"
+            
+            />
+        <Preference
+            android:key="shareApp"
+            android:title="@string/shareApp"
+            android:summary="Share this app with your friends"
+            />
+         <Preference
+            android:key="contactCreator"
+            android:title="@string/contactCreator"
+            android:summary="Contact me"
+            />
+         <Preference
+            android:key="donateApplication"
+            android:title="@string/donateApplication"
+            android:summary="Thank you for supporting!"
+            />
+        
+    </PreferenceCategory> 
+    
+</PreferenceScreen>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="15%p"
+    android:horizontalGap="0.0px"
+    android:verticalGap="0.0px"
+    android:keyHeight="@dimen/key_height"
+    >
+
+    <Row android:rowEdgeFlags="top">
+        
+        <Key android:codes="110" android:keyEdgeFlags="left" android:iconPreview="@drawable/sym_keyboard_smiley" android:keyOutputText="☺" android:keyIcon="@drawable/sym_keyboard_smiley" />
+        <Key android:codes="110" android:iconPreview="@drawable/sym_keyboard_smiley_big_grin" android:keyOutputText="😄 " android:keyIcon="@drawable/sym_keyboard_smiley_big_grin" />
+        <Key android:codes="110" android:iconPreview="@drawable/sym_keyboard_smiley_wink_preview" android:keyOutputText="😏 " android:keyIcon="@drawable/sym_keyboard_smiley_wink" />
+        <Key android:codes="110" android:iconPreview="@drawable/sym_keyboard_smiley_tongueout" android:keyOutputText=":-P " android:keyIcon="@drawable/sym_keyboard_smiley_tongueout" />
+        <Key android:codes="110" android:iconPreview="@drawable/sym_keyboard_smiley_cool" android:keyOutputText="😎" android:keyIcon="@drawable/sym_keyboard_smiley_cool" android:keyEdgeFlags="right"/>
+        
+    </Row>
+    <Row>
+        <Key android:codes="110" android:iconPreview="@drawable/sym_keyboard_smiley_kiss" android:keyOutputText=":-* " android:keyIcon="@drawable/sym_keyboard_smiley_kiss" android:keyEdgeFlags="left" />
+        <Key android:codes="110" android:iconPreview="@drawable/sym_keyboard_smiley_love" android:keyOutputText="♥" android:keyIcon="@drawable/sym_keyboard_smiley_love" />
+        <Key android:codes="110" android:iconPreview="@drawable/sym_keyboard_smiley_blush" android:keyOutputText=":-I " android:keyIcon="@drawable/sym_keyboard_smiley_blush" />
+        <Key android:codes="110" android:iconPreview="@drawable/sym_keyboard_smiley_sleepy" android:keyOutputText="|-." android:keyIcon="@drawable/sym_keyboard_smiley_sleepy" />
+        <Key android:codes="110" android:keyEdgeFlags="right" android:iconPreview="@drawable/sym_keyboard_smiley_surprise" android:keyOutputText=":-o " android:keyIcon="@drawable/sym_keyboard_smiley_surprise" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="110" android:keyEdgeFlags="left" android:iconPreview="@drawable/sym_keyboard_smiley_sad" android:keyOutputText=":-(" android:keyIcon="@drawable/sym_keyboard_smiley_sad" />
+        <Key android:codes="110" android:iconPreview="@drawable/sym_keyboard_smiley_angry" android:keyOutputText="8-[ " android:keyIcon="@drawable/sym_keyboard_smiley_angry" />
+        <Key android:codes="110" android:iconPreview="@drawable/sym_keyboard_smiley_embarrassed" android:keyOutputText=":-! " android:keyIcon="@drawable/sym_keyboard_smiley_embarrassed" />
+        <Key android:codes="110" android:iconPreview="@drawable/sym_keyboard_smiley_cry" android:keyOutputText=":'( " android:keyIcon="@drawable/sym_keyboard_smiley_cry" />
+        <Key android:codes="110" android:iconPreview="@drawable/sym_keyboard_smiley_evil" android:keyOutputText="}-] " android:keyIcon="@drawable/sym_keyboard_smiley_evil" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="110" android:keyEdgeFlags="left" android:iconPreview="@drawable/sym_keyboard_smiley_money" android:keyOutputText=":-$" android:keyIcon="@drawable/sym_keyboard_smiley_money" />
+        <Key android:codes="110" android:iconPreview="@drawable/sym_keyboard_smiley_shy" android:keyOutputText="8-. " android:keyIcon="@drawable/sym_keyboard_smiley_shy" />
+        <Key android:codes="110" android:iconPreview="@drawable/sym_keyboard_smiley_geek" android:keyOutputText=":-g " android:keyIcon="@drawable/sym_keyboard_smiley_geek" />
+        <Key android:codes="110" android:iconPreview="@drawable/sym_keyboard_smiley_smoke" android:keyOutputText=":|/" android:keyIcon="@drawable/sym_keyboard_smiley_smoke" />
+        <Key android:codes="110" android:iconPreview="@drawable/sym_keyboard_smiley_zip" android:keyOutputText=":|" android:keyIcon="@drawable/sym_keyboard_smiley_zip" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <!-- 
+      <Row android:keyWidth="10.000002%p" android:rowEdgeFlags="top">
+        <Key android:keyLabel=":-)" android:keyOutputText=":-) " android:keyEdgeFlags="left" />
+        <Key android:keyLabel=":-*" android:keyOutputText=":-*"/>
+        <Key android:keyLabel=":-D" android:keyOutputText=":-D "/>
+        <Key android:keyLabel=";-)" android:keyOutputText=";-) "/>
+        <Key android:keyLabel=":-P" android:keyOutputText=":-P "/>
+        <Key android:keyLabel="B-)" android:keyOutputText="B-) " android:keyEdgeFlags="right" />
+    </Row>
+    
+    <Row>
+        <Key android:keyLabel="&lt;3" android:keyOutputText="&lt;3 " android:keyEdgeFlags="left" />
+        <Key android:keyLabel=":-X" android:keyOutputText=":-X " />
+        <Key android:keyLabel=":-I" android:keyOutputText=":-I "/>
+        <Key android:keyLabel=":-!" android:keyOutputText=":-! "/>
+        <Key android:keyLabel="8-o" android:keyOutputText="8-o "/>
+        <Key android:keyLabel="O_Q" android:keyOutputText="O_Q " android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyLabel=":-(" android:keyOutputText=":-( " android:keyEdgeFlags="left" />
+        <Key android:keyLabel=":-$" android:keyOutputText=":-$ "/>
+        <Key android:keyLabel="8-[" android:keyOutputText="8-[ "/>
+        <Key android:keyLabel="xx-P" android:keyOutputText="xx-P "/>
+        <Key android:keyLabel="|-." android:keyOutputText="|-. "/>
+        <Key android:keyLabel="}-]" android:keyOutputText="}-] " android:keyEdgeFlags="right" />
+    </Row>
+    -->
+
+</Keyboard>

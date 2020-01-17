@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="10.000002%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0.0px" android:verticalGap="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top" >
+        
+        <Key android:keyLabel="፩"  android:keyEdgeFlags="left" />
+        <Key android:keyLabel="፪" />
+        <Key android:keyLabel="፫" />
+        <Key android:keyLabel="፬" />
+        <Key android:keyLabel="፭" />
+        <Key android:keyLabel="፮" />
+        <Key android:keyLabel="፰" />
+        <Key android:keyLabel="፮" />
+        <Key android:keyLabel="፱" />
+        <Key android:keyLabel="፲"  android:keyEdgeFlags="right" />
+    </Row>
+    
+    <Row android:rowEdgeFlags="bottom" >
+        
+        <Key android:keyLabel="፳" android:keyEdgeFlags="left" />
+        <Key android:keyLabel="፴" />
+        <Key android:keyLabel="፵" />
+        <Key android:keyLabel="፶" />
+        <Key android:keyLabel="፷" />
+        <Key android:keyLabel="፸" />
+        <Key android:keyLabel="፹" />
+        <Key android:keyLabel="፸" />
+        <Key android:keyLabel="፺" />
+        <Key android:keyLabel="፻" />
+        <Key android:keyLabel="፼"  android:keyEdgeFlags="right" />
+        
+    </Row>
+</Keyboard>

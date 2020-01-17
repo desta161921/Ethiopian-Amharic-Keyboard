@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ethiopian.amharic.professional.AmharicKeyboardView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:id/keyboardView"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/keyboard_background"
+        android:keyBackground="@drawable/btn_keyboard_key"
+        android:keyTextColor="@color/key_text_color"
+        android:shadowColor="#E0E0E0" />

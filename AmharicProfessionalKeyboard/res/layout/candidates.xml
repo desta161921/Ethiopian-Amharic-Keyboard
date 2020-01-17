@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ethiopian.amharic.professional.CandidateViewContainer android:orientation="horizontal" android:background="@drawable/keyboard_suggest_strip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/candidate_left_parent" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageButton android:id="@id/candidate_left" android:background="@drawable/ic_suggest_scroll_background" android:clickable="true" android:layout_width="36.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_suggest_strip_scroll_left_arrow" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/keyboard_suggest_strip_divider" />
+    </LinearLayout>
+    <com.ethiopian.amharic.professional.CandidateView android:id="@id/candidates" android:layout_width="wrap_content" android:layout_height="@dimen/candidate_strip_height" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/candidate_right_parent" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/keyboard_suggest_strip_divider" />
+        <ImageButton android:id="@id/candidate_right" android:background="@drawable/ic_suggest_scroll_background" android:clickable="true" android:layout_width="36.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_suggest_strip_scroll_right_arrow" />
+    </LinearLayout>
+</com.ethiopian.amharic.professional.CandidateViewContainer>

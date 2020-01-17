@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/key_height"
+    >
+
+    <Row>
+        <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left"
+                android:popupKeyboard="@xml/kbd_popup_template"
+                android:popupCharacters="¹½⅓¼⅛①"
+        />
+        <Key android:codes="50" android:keyLabel="2"
+                android:popupKeyboard="@xml/kbd_popup_template"
+                android:popupCharacters="²⅔②"
+        />
+        <Key android:codes="51" android:keyLabel="3"
+                android:popupKeyboard="@xml/kbd_popup_template"
+                android:popupCharacters="³¾⅜③"
+        />
+        <Key android:codes="52" android:keyLabel="4"
+                android:popupKeyboard="@xml/kbd_popup_template"
+                android:popupCharacters="⁴④"/>
+        <Key android:codes="53" android:keyLabel="5"
+                android:popupKeyboard="@xml/kbd_popup_template"
+                android:popupCharacters="⅝⁵⑤"
+        />
+        <Key android:codes="54" android:keyLabel="6"
+                android:popupKeyboard="@xml/kbd_popup_template"
+                android:popupCharacters="⁶⑥"
+        />
+        
+        <Key android:codes="55" android:keyLabel="7"
+                android:popupKeyboard="@xml/kbd_popup_template"
+                android:popupCharacters="⅞⁷⑦"
+        />
+        <Key android:codes="56" android:keyLabel="8"
+            android:popupKeyboard="@xml/kbd_popup_template"
+                android:popupCharacters="⅛⅜⅝⅞⁸⑧"/>
+		<Key android:codes="57" android:keyLabel="9"
+            android:popupKeyboard="@xml/kbd_popup_template"
+                android:popupCharacters="⁹⑨"/>
+	
+        <Key android:codes="48" android:keyLabel="0" 
+                android:popupKeyboard="@xml/kbd_popup_template"
+                android:popupCharacters="ⁿ∅"
+                android:keyEdgeFlags="right"/>
+    </Row>
+    <!-- additional unicode input begin's here-->
+    <!-- Geez numbers from 1-10 -->
+    <Row>
+        <Key android:codes="4969" android:keyLabel="፩" android:keyEdgeFlags="left"/>
+        <Key android:codes="4970" android:keyLabel="፪"/>
+        <Key android:codes="4971" android:keyLabel="፫"/>
+        <Key android:codes="4972" android:keyLabel="፬"/>
+        <Key android:codes="4973" android:keyLabel="፭"/>
+        <Key android:codes="4974" android:keyLabel="፮"/>
+        <Key android:codes="4975" android:keyLabel="፯"/>
+        <Key android:codes="4976" android:keyLabel="፰"/>
+        <Key android:codes="4977" android:keyLabel="፱"/>
+        <Key android:codes="4978" android:keyLabel="፲" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <!-- Geez numbers from 20-100 -->
+     <Row>
+        <Key android:codes="4979" android:keyLabel="፳" android:keyEdgeFlags="left"/>
+        <Key android:codes="4980" android:keyLabel="፴"/>
+        <Key android:codes="4981" android:keyLabel="፵"/>
+        <Key android:codes="4982" android:keyLabel="፶"/>
+        <Key android:codes="4983" android:keyLabel="፷"/>
+        <Key android:codes="4984" android:keyLabel="፸"/>
+        <Key android:codes="4985" android:keyLabel="፹"/>
+        <Key android:codes="4986" android:keyLabel="፺"/>
+        <Key android:codes="4987" android:keyLabel="፻"/>
+        <Key android:codes="4988" android:keyLabel="፼" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <!-- additional unicode input ends here-->
+    
+    
+    
+    <Row>
+        <Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift" 
+                android:keyWidth="15%p" android:isModifier="true" 
+                android:isSticky="true" android:keyEdgeFlags="left"/>
+        <Key android:codes="58" android:keyLabel=":"/>
+        <Key android:codes="95" android:keyLabel="_"/>
+        <Key android:codes="64" android:keyLabel="\@"/>
+        <Key android:codes="35" android:keyLabel="\#"/>
+        <Key android:codes="37" android:keyLabel="%" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="‰"/>
+        <Key android:codes="38" android:keyLabel="&amp;"/>
+        <!-- <Key android:codes="42" android:keyLabel="*"/>-->
+        <!-- <Key android:codes="63" android:keyLabel="\?"/>-->
+        <Key android:codes="63" android:keyLabel="\?" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="&#191;"/>
+        
+       
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" android:keyWidth="15%p" android:keyEdgeFlags="right"
+                android:iconPreview="@drawable/sym_keyboard_feedback_delete"
+                android:isRepeatable="true"/>
+    </Row>
+    
+    <Row  android:rowEdgeFlags="bottom">
+        <!-- <Key android:codes="-100" android:keyIcon="@drawable/sym_keyboard_settings"
+                android:keyWidth="20%p" android:keyEdgeFlags="left" />
+         -->
+        <Key android:keyWidth="14.999998%p" android:codes="@string/geez_key" android:keyEdgeFlags="left" android:keyIcon="@drawable/geezoff" />
+        <Key android:keyWidth="14.999998%p" android:codes="-2" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="" android:keyLabel="@string/label_alpha_key" />
+     
+        <Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" android:keyWidth="30%p" 
+                android:iconPreview="@drawable/sym_keyboard_feedback_space"
+                android:isRepeatable="true"/>
+         <Key android:codes="9786" android:popupKeyboard="@xml/popup_smiles" android:keyLabel="☺" android:keyWidth="15%p"/>
+        <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return" android:keyWidth="20%p" android:keyEdgeFlags="right"
+                android:iconPreview="@drawable/sym_keyboard_feedback_return"
+                android:popupKeyboard="@xml/popup_smileys"/>
+    </Row>
+</Keyboard>
